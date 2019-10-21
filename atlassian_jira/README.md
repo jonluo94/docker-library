@@ -4,7 +4,7 @@ docker build -t jira/jira-mysql:8.1.0 .
 ```
 ## 运行jira
 ```
-docker run -d -it -p 8080:8080  --name jira jira/jira-mysql:8.1.0 
+docker run -d -it -p 8080:8080 -v /jira:/var/atlassian/jira --name jira jira/jira-mysql:8.1.0 
 ```
 ## 使用mysql示例
 * 创建jira数据库及用户 帐号jirauser 密码jira
