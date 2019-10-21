@@ -18,7 +18,13 @@ docker run --detach \
     gitlab/gitlab-ce:latest
 
 ```
-## 运行gitlab-runner
+## 运行gitlab-runner 
+* 添加gitlab-runner库  
+``` 
+curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.rpm.sh | sudo bash
+
+yum install gitlab-runner
+```
 
 
 
