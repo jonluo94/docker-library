@@ -8,7 +8,7 @@ mkdir /gitlab/data
 
 
 docker run --detach --hostname gitlab.grgchain.com \
-    --publish 8443:443 --publish 8180:80 --name gitlab --restart always \
+    --publish 443:443 --publish 80:80 --name gitlab --restart always \
     --volume /gitlab/config:/etc/gitlab \
     --volume /gitlab/logs:/var/log/gitlab \
     --volume /gitlab/data:/var/opt/gitlab \
