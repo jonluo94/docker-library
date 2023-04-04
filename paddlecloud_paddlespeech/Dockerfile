@@ -1,0 +1,1 @@
+FROM paddlecloud/paddlespeech:develop-cpu-latest
