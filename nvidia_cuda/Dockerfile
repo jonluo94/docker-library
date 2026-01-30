@@ -1,1 +1,1 @@
-FROM nvidia/cuda:12.0.1-cudnn8-devel-ubuntu22.04
+FROM xprobe/xinference:v1.17.0
